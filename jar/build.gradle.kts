@@ -14,7 +14,7 @@ java {
 
 dependencies {
     implementation(projects.patch)
-    runtimeOnly("org.bouncycastle:bcprov-jdk18on:1.78.1")
+    runtimeOnly("org.bouncycastle:bcprov-jdk18on:1.86")
 }
 
 fun Jar.configure(variant: String) {
