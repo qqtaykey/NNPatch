@@ -151,7 +151,7 @@ dependencies {
     implementation(npatch.androidx.compose.ui)
     implementation(npatch.androidx.compose.ui.tooling.preview)
     implementation(npatch.androidx.core.ktx)
-    implementation("com.google.android.material:material:1.12.0")
+    implementation("com.google.android.material:material:1.14.0")
     implementation(npatch.androidx.datastore.preferences)
     implementation(npatch.coil.compose)
     implementation(libs.gson)
@@ -159,8 +159,8 @@ dependencies {
     implementation("androidx.preference:preference-ktx:1.2.1")
     implementation(npatch.androidx.room.ktx)
     implementation(npatch.androidx.room.runtime)
-    implementation("com.squareup.okhttp3:okhttp:5.3.2")
-    implementation("com.squareup.okhttp3:okhttp-dnsoverhttps:5.3.2")
+    implementation("com.squareup.okhttp3:okhttp:5.5.0")
+    implementation("com.squareup.okhttp3:okhttp-dnsoverhttps:5.5.0")
 
     implementation(libs.gson)
     implementation(npatch.rikka.shizuku.api)
@@ -179,7 +179,7 @@ dependencies {
     implementation("top.yukonga.miuix.kmp:miuix-preference:$miuixVersion")
     implementation("top.yukonga.miuix.kmp:miuix-icons:$miuixVersion")
     implementation("top.yukonga.miuix.kmp:miuix-nav:$miuixVersion")
-    implementation("androidx.navigationevent:navigationevent-compose:1.1.2")
+    implementation("androidx.navigationevent:navigationevent-compose:1.2.0")
     implementation(npatch.androidx.webkit)
 
 
